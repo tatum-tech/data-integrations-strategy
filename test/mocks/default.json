@@ -1,0 +1,11 @@
+{
+  "name": "data_integration",
+  "display_name": "Data Integration",
+  "type": "dataintegration",
+  "conditions": [],
+  "inputs": [],
+  "outputs": [],
+  "ruleset": [],
+  "sync": true,
+  "variables": []
+}

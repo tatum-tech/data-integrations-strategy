@@ -1,0 +1,63 @@
+{
+  "name": "zillow_real_estate_valuation",
+  "display_name": "Zillow Real Estate Valuation",
+  "dataintegration_id": "5af088bdc2edb5f419d2ee51",
+  "type": "dataintegration",
+  "conditions": [],
+  "inputs": [
+     {
+        "data_type": "String",
+        "description": "The address of the property to search",
+        "input_name": "address",
+        "display_name": "address",
+        "input_type": "variable"
+     },
+     {
+        "data_type": "String",
+        "description": "The city+state combination and/or ZIP code for which to search",
+        "input_name": "citystatezip",
+        "display_name": "citystatezip",
+        "input_type": "variable"
+     }
+  ],
+  "outputs": [
+     {
+        "api_name": "zestimate-amount",
+        "description": "Zestimate (in $)",
+        "data_type": "Number"
+     },
+     {
+        "api_name": "zestimate-last-updated",
+        "description": "Zestimate: Last updated date",
+        "data_type": "Date"
+     },
+     {
+        "api_name": "zestimate-valueChange",
+        "description": "Zestimate: 30-day change (in $)",
+        "data_type": "Number"
+     },
+     {
+        "api_name": "zestimate-valuationRange-low",
+        "description": "Zestimate: Valuation range (low) (in $)",
+        "data_type": "Number"
+     },
+     {
+        "api_name": "zestimate-valuationRange-high",
+        "description": "Zestimate: Valuation range (high) (in $)",
+        "data_type": "Number"
+     },
+     {
+        "api_name": "zestimate-percentile",
+        "description": "Zestimate: Percentile Value",
+        "data_type": "Number"
+     },
+     {
+        "api_name": "rentzestimate-amount",
+        "description": "Rent Zestimate (in $)",
+        "data_type": "Number"
+     }
+  ],
+  "ruleset": [],
+  "sync": true,
+  "variables": []
+}
