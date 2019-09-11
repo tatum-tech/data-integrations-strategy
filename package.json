@@ -1,6 +1,6 @@
 {
   "name": "@digifi-los/data-integrations-strategy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "dynamic data integrations strategy implementation module",
   "main": "index.js",
   "scripts": {
