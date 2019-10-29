@@ -16,7 +16,7 @@
     "browserify": "^16.2.2",
     "chai": "^3.5.0",
     "chai-spies": "^0.7.1",
-    "eslint": "^3.18.0",
+    "eslint": "^6.6.0",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-connect": "^1.0.2",
