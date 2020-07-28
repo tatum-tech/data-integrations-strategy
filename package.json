@@ -1,6 +1,6 @@
 {
   "name": "@digifi-los/data-integrations-strategy",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "dynamic data integrations strategy implementation module",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "DigiFi",
   "dependencies": {
-    "@digifi-los/data-integrations-core": "^0.0.10",
+    "@digifi-los/data-integrations-core": "^0.0.11",
     "deasync": "^0.1.13",
     "promisie": "^1.6.1"
   },
