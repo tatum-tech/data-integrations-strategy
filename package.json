@@ -7,8 +7,11 @@
     "test": "mocha -R spec --recursive"
   },
   "author": "DigiFi",
+  "precommit": [
+    "build"
+  ],
   "dependencies": {
-    "@digifi-los/data-integrations-core": "^0.0.11",
+    "@digifi-los/data-integrations-core": "github:tatum-tech/data-integrations-core#useLocally",
     "deasync": "^0.1.13",
     "promisie": "^1.6.1"
   },
